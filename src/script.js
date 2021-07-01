@@ -1,25 +1,12 @@
-// FizzBuzz
-// Divisível por 3 => 'Fizz',
-// Divisível por 5 => 'Buzz',
-// Divisível por 3 e 5 => 'FizzBuzz',
-// Se não for um número => 'Não é um número',
-// Se não for divisível nem por 3 e nem por 5 => Entrada.
+// Reverse a string
 
-let resultado = fizzbuzz(3);
-console.log(resultado);
+let newString = "";
+let resultado = reverseAString("Hello Gama Academy");
 
-function fizzbuzz(entrada) {
-  if (typeof entrada !== "number") {
-    return "Não é um número";
+function reverseAString(str) {
+  for (let i = str.length - 1; i >= 0; i--) {
+    newString += str[i];
   }
-  if (entrada % 3 === 0 && entrada % 5 === 0) {
-    return "FizzBuzz";
-  }
-  if (entrada % 3 === 0) {
-    return "Fizz";
-  }
-  if (entrada % 5 === 0) {
-    return "Buzz";
-  }
-  return entrada;
+
+  console.log(newString);
 }
