@@ -1,12 +1,8 @@
-// Reverse a string
+// Convert Celsius to Fahrenheit
 
-let newString = "";
-let resultado = reverseAString("Hello Gama Academy");
+let result = convertToFahrenheit(40);
+console.log(`O valor em Fahrenheit é ${result}`);
 
-function reverseAString(str) {
-  for (let i = str.length - 1; i >= 0; i--) {
-    newString += str[i];
-  }
-
-  console.log(newString);
+function convertToFahrenheit(value) {
+  return value * 1.8 + 32;
 }
