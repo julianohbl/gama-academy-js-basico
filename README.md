@@ -52,10 +52,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Autor
 ---
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/15468735?v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Juliano Lima</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
 
 
 Feito por Juliano Lima 👋🏽 Entre em contato!
